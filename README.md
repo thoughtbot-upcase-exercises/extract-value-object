@@ -1,7 +1,7 @@
 "Extract Value" Exercise
 ========================
 
-In this exercise, you'll be breaking out a value object from the `Test`
+In this exercise, you'll be breaking out a value object from the `ReportCard`
 class.
 
 Value Objects are objects that represent a value (such as a phone number or
@@ -22,8 +22,9 @@ string.
 Exercise!
 ---------
 
-Extract a new grade value object from `Test` (located at `lib/test.rb`).
-Make sure to write tests for the new object as you go.
+Extract a new grade value object from `ReportCard` (located at
+`lib/report_card.rb`). Make sure to add additional tests for the new object as
+you go.
 
 Make sure all tests are passing by running:
 
