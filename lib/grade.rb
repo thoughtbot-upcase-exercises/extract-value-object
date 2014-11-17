@@ -4,7 +4,7 @@ class Grade
   end
 
   def letter
-    if score < 60
+    @letter ||= if score < 60
       'F'
     elsif score < 70
       'D'
