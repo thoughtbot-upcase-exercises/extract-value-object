@@ -13,9 +13,12 @@ GEM
     atomic (1.1.16)
     builder (3.1.4)
     diff-lcs (1.2.5)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
     i18n (0.6.9)
     minitest (4.7.5)
     multi_json (1.9.0)
+    rake (10.4.2)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -33,4 +36,6 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
+  factory_girl
+  rake
   rspec
